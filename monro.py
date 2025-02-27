@@ -15,7 +15,7 @@ coordinates = (25, 0, 671, 522)
 cropped_red_middle = image.crop(coordinates) 
 
 image1 = cropped_red_left
-image2 = cropped_red_left
+image2 = cropped_red_middle
 red_blended = (image1, image2)
 red_blended = Image.blend(image1, image2, 0.5)
 
